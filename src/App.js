@@ -1,5 +1,5 @@
 import HomePage from "./Page/Home/HomePage";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import NavBarLogin from "./Components/Uitily/NavBarLogin";
 import Footer from "./Components/Uitily/Footer";
 import LoginPage from "./Page/Auth/LoginPage";
@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="font">
-      <BrowserRouter>
+      <HashRouter>
         <NavBarLogin />
         <Routes>
           <Route index element={<HomePage />} />
@@ -117,7 +117,7 @@ function App() {
             <Route path="/user/profile" element={<UserProfilePage />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <Footer />
     </div>
   );
