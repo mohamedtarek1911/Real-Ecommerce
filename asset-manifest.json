@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Real-Ecommerce/static/css/main.f8709a28.css",
-    "main.js": "/Real-Ecommerce/static/js/main.93c91787.js",
+    "main.css": "/Real-Ecommerce/static/css/main.24a17685.css",
+    "main.js": "/Real-Ecommerce/static/js/main.86930ad3.js",
     "static/media/laptops.png": "/Real-Ecommerce/static/media/laptops.a5a6ab642345b5d38784.png",
     "static/media/slider4.png": "/Real-Ecommerce/static/media/slider4.8049dedb7c458a0534a5.png",
     "static/media/prod4.png": "/Real-Ecommerce/static/media/prod4.60c973db7361e54bb831.png",
@@ -12,11 +12,11 @@
     "static/media/avatar.png": "/Real-Ecommerce/static/media/avatar.f5ed20588df8bb546e2d.png",
     "static/media/brand3.png": "/Real-Ecommerce/static/media/brand3.1a0049b1f1a261d0e6d1.png",
     "index.html": "/Real-Ecommerce/index.html",
-    "main.f8709a28.css.map": "/Real-Ecommerce/static/css/main.f8709a28.css.map",
-    "main.93c91787.js.map": "/Real-Ecommerce/static/js/main.93c91787.js.map"
+    "main.24a17685.css.map": "/Real-Ecommerce/static/css/main.24a17685.css.map",
+    "main.86930ad3.js.map": "/Real-Ecommerce/static/js/main.86930ad3.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8709a28.css",
-    "static/js/main.93c91787.js"
+    "static/css/main.24a17685.css",
+    "static/js/main.86930ad3.js"
   ]
 }
