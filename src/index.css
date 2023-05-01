@@ -697,3 +697,12 @@ body {
 .width-50 {
   width: 57% !important;
 }
+
+.menu-hover {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-hover:hover {
+  color: #272727;
+}

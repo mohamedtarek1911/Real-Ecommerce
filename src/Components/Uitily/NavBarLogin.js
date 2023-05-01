@@ -32,6 +32,7 @@ const NavBarLogin = () => {
     localStorage.removeItem("user");
     localStorage.removeItem("token");
     setUser("");
+    window.location.reload(false);
   };
 
   const [itemsNum] = GetAllUserCartHook();
@@ -120,17 +121,23 @@ const NavBarLogin = () => {
             {user != "" ? (
               <NavDropdown title={user.name} id="basic-nav-dropdown">
                 {user.role === "admin" ? (
-                  <NavDropdown.Item href="/admin/allproducts">
-                    لوحة التحكم
+                  <NavDropdown.Item>
+                    <Link className="menu-hover" to="/admin/allproducts">
+                      لوحة التحكم
+                    </Link>
                   </NavDropdown.Item>
                 ) : (
-                  <NavDropdown.Item href="/user/profile">
-                    الصفحه الشخصية
+                  <NavDropdown.Item>
+                    <Link className="menu-hover" to="/user/profile">
+                      الصفحه الشخصية
+                    </Link>
                   </NavDropdown.Item>
                 )}
                 <NavDropdown.Divider />
-                <NavDropdown.Item onClick={logOut} href="/">
-                  تسجيل خروج
+                <NavDropdown.Item>
+                  <Link className="menu-hover" onClick={logOut} to="/">
+                    تسجيل خروج
+                  </Link>
                 </NavDropdown.Item>
               </NavDropdown>
             ) : (
